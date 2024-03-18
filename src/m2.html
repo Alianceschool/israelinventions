@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חדר בריחה</title>
+    
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="js/checkwords2.js"></script>
+    <script src="js/invention.js"></script>
+</head>
+<body dir="rtl" class="bk3">
+    <div class="note">
+        <h1>נחש את ההמצאה</h1>
+        <ul>
+            <li>
+                לפי ההגדרה, נחשו מה ההמצאה 
+            </li>
+            <li>
+                חברו את האות הראשונה מכל מילה וקבלו מספר שמרו אותו לקוד 
+            </li>
+        </ul>
+        </div>
+<div id="game">
+    <div id="safedisplay"> hi12</div>
+    <h2>בימה מתרוממת ניידת לצרכים חקלאיים</h2>
+    <input type="text" class="findenv" id="input1" onclick="checkword1()" placeholder="xxxxx">
+    <button onclick="checkword1()">בדיקה</button>
+    <br>
+    <h2>כלי שיט חלול העשוי מעץ הכלי משמש מצילים בארץ ישראל</h2>
+    <input type="text" class="findenv" id="input2" onclick="checkword2()" placeholder="xxxx">
+    <button onclick="checkword2()">בדיקה</button>
+    <br>
+    <h2>שומר מידע קטן הנכנס לכיס</h2>
+    <input type="text" class="findenv" id="input3" onclick="checkword3()" placeholder="xx xxx xxxx">
+    <button onclick="checkword3()">בדיקה</button>
+    <br> <br>
+    <!-- זה רמז טוב? -->
+    <h2 style="display: none;" id="clue">
+        ניתן לחפש בגוגל את התשובה
+
+    </h2>
+    <input type="text" class="findenv" id="check" onclick="checkword4()" placeholder="תשובה אחרונה">
+    <button onclick="finalcheck()">בדיקה</button>
+    <a href="m3.html"><button id="nextbutton">הדף הבא</button></a>
+    <button id="cluebutton" onclick="clue()">רמז (2 דקות)</button>
+</div>
+</body>
+</html>

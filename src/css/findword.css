@@ -1,0 +1,13 @@
+.container{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  display: grid;
+  width: 75vh;
+  height: 75vh;
+  grid-template-rows: 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+  grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+}
+.item-9{
+  color: azure;
+}
