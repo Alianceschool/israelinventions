@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חדר בריחה</title>
+    
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="js/checkwords4.js"></script>
+    <script src="js/invention.js"></script>
+</head>
+<body dir="rtl" class="bk5">
+    <div class="note">
+        <h1>מצא את ההמצאה</h1>
+    </div>
+<div id="game">
+    <div id="safedisplay"> hi12</div>
+    <img src="assets/maze.jpg" class="maze">
+    <input type="text" class="findenv" id="input1" onclick="checkword1()" placeholder="???" >
+    <button onclick="checkword1()">בדיקה</button>
+    <button onclick="clue()" id="cluebutton">רמז (2 דקות)</button>
+    <br>
+    <h2 style="display: none;" id="clue">פתרו את המבוך, אם פתרתם נכון יצא לכם 
+        משפט שבזכותו תוכלו להתקדם למשימה הבאה
+    </h2>
+    <a href="m5.html"><button id="nextbutton">הדף הבא</button></a>
+</div>
+</body>
+</html>

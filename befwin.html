@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חדר בריחה</title>
+    
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="js/befwin.js"></script>
+    <script src="js/invention.js"></script>
+</head>
+<body dir="rtl" class="bk9">
+    <div class="note">
+        <h1>מהו הקוד האחרון?</h1>
+    </div>
+<div id="game">
+    <div id="safedisplay"> hi12</div>
+    <img id="questionmarks" src="assets/questionmarks.gif">
+    <br>
+    <input type="text" class="findenv" id="input1" onclick="checkword()" placeholder="xxxxxxxxxxx" >
+    <button onclick="checkword()">בדיקה</button>
+    <br>
+    <h2 style="display: none;" id="clue">רמז: הקוד נמצא בחידות הקודמות </h2>
+    <a href="m1.html"><button id="page1">החידות הקודמות</button></a>
+    <button onclick="clue()" id="cluebutton">רמז (2 דקות)</button>
+    <a href="win.html"><button id="nextbutton">הדף הבא</button></a>
+</div>
+</body>
+</html>
